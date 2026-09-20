@@ -24,6 +24,12 @@ This is the bootstrap direct-dependency register, not a completed release SBOM, 
 
 The local JDK is Azul Zulu 17 (tool-only, ignored `.tools/` directory); CI uses Temurin 17. No machine-local SDK/JDK path is committed. Existing Android Studio bundled runtime was Java 21, so a separate Java 17 toolchain is used to retain the locked baseline.
 
+## CI-only tools
+
+The Android workflow pins every action to a resolved upstream commit. Major-version comments identify the reviewed release lines: GitHub checkout/setup-java/upload-artifact v4, android-actions/setup-android v3, Gradle setup-gradle v4 and ReactiveCircus/android-emulator-runner v2. These are build/test tools, not shipped app dependencies. Emulator execution follows the [upstream Linux/KVM setup](https://github.com/ReactiveCircus/android-emulator-runner); report/APK retention follows [GitHub artifact guidance](https://docs.github.com/en/actions/tutorials/store-and-share-data). Artifacts expire after 14 days. CI has read-only repository permissions and no release/signing credentials.
+
+Hosted tests cover the diagnostic Compose shell on API 26 and 36. They do not provide physical Nearby or OEM evidence. The emulator action resolves SDK images at execution time; retain the run logs and installed image revisions when interpreting results. Changes limited to Markdown or `docs/` skip the Android workflow; manual dispatch remains available.
+
 ## Merged manifest inspection
 
 The resolved Nearby SDK merges ACCESS_NETWORK_STATE, a permission-protected Exposure Notification WakeUpService and GoogleApiActivity into the debug manifest even before Nod calls Nearby. These are SDK components, not Nod product features. Inventory/audit them again when the adapter is implemented and before release. The Compose test-manifest dependency contributes a debug-only test host activity. Application backup remains false and explicit cloud/device-transfer exclusions remain attached. No dangerous nearby/contact/storage/camera permissions are requested by the Phase 0 shell.
