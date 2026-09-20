@@ -34,7 +34,7 @@ With an emulator/device attached:
 
 The instrumented shell test verifies rendering only. It is not a wireless transfer test. Nearby requires two real devices for the Phase 1 acceptance gate.
 
-The `.github/workflows/android.yml` workflow can run when this repository is hosted on GitHub. No remote repository has been created or pushed by bootstrap.
+The repository is hosted at [Joshuaroug2083/NOD](https://github.com/Joshuaroug2083/NOD), with the foundation pushed to `main`. The `.github/workflows/android.yml` workflow runs quality/build checks and separate Compose shell tests on API 26 and 36. APKs and reports are retained as Actions artifacts for 14 days. See `STATUS.md` for actual run outcomes.
 
 ## Outputs
 
@@ -42,6 +42,8 @@ The `.github/workflows/android.yml` workflow can run when this repository is hos
 - Unsigned release APK: `app/build/outputs/apk/release/app-release-unsigned.apk`
 - Unit-test reports: each module's `build/reports/tests/`
 - Lint/static-analysis reports: each module's `build/reports/`
+
+The phone-testing copy is `build/distributions/Nod-0.0.1-phase0-debug.apk` (version 0.0.1, package `dev.nod.spike.debug`, Android 8 or newer). It is the signed debug shell, not the unsigned release APK. Copy it to the phone, open it and allow installation for the chosen browser/file manager when Android prompts. Expected behavior is the Phase 0 diagnostic screen only; discovery, pairing and sharing are not implemented. Build outputs remain ignored by Git. Locally and CI-generated debug APKs can have different debug signing certificates; Android will not update one with the other without uninstalling the previous debug app, which removes that app's local data.
 
 See `STATUS.md` for actual execution evidence and remaining gates; setup instructions are not evidence of a pass.
 

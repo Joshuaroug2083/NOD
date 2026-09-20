@@ -63,10 +63,13 @@ This is the working checklist for tracking implementation, not a replacement pro
 - [x] Add HELLO round-trip and unknown additive field tests, plus the ViewModel state test.
 - [x] Run the three JVM tests successfully (two protocol tests and one ViewModel test); aggregate validation remains a separate gate below.
 - [x] Add a Compose shell-rendering instrumentation test.
-- [x] Add GitHub Actions build/test/static-analysis workflow; execution awaits a hosted repository (NOD-0008).
+- [x] Push the foundation to the user-specified GitHub repository, `Joshuaroug2083/NOD`, on `main`.
+- [x] Add GitHub Actions build/test/static-analysis workflow and hosted API 26/36 Compose test jobs (NOD-0008).
+- [ ] Pass the hosted workflow. The first run failed during Android SDK setup before any build or test; retain the failure and verify the correction.
 - [x] Document local build commands, dependencies/licenses and original source review (NOD-0009).
 - [x] Pass aggregate unit tests, ktlint, detekt and Android lint; app lint reports 0 errors, 0 warnings and 20 informational dependency-update hints.
 - [x] Produce the installable debug shell APK.
+- [x] Deliver `build/distributions/Nod-0.0.1-phase0-debug.apk` for the user's phone test; debug build and APK signature verification pass. This validates packaging, not successful installation on that phone.
 - [x] Produce the Compose instrumentation APK; device execution has been attempted but has not passed.
 - [x] Produce the shrunk unsigned release APK with final validation; combined quality/debug/release/instrumentation build passed.
 - [x] Validate a clean source copy offline without copied project outputs/local settings and with task-output cache disabled; build passed in 4m 52s, with a Windows compiler file-lock fallback recorded in evidence.

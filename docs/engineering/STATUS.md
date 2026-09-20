@@ -35,8 +35,8 @@ The installed Android Studio version (Narwhal Feature Drop 2025.1.2) supports AG
 
 - Rerun Compose instrumentation on a stable emulator/device. The second attempt's immediate cause is confirmed as an Android process-start ANR; both host and guest showed severe resource pressure, with unrelated system processes also failing. No JUnit pass is claimed, and app/test correctness remains unverified. See DEVICE_VALIDATION.md.
 - Android Studio import/sync has not been observed. The installed IDE is incompatible with AGP 8.13; see the follow-up evidence above. A command-line build is not IDE evidence.
-- A local Git checkpoint and literal clone now exist; nothing has been pushed and no external remote was configured in the working repository.
-- GitHub Actions workflow is configured but has not run remotely.
+- The foundation was pushed to [Joshuaroug2083/NOD](https://github.com/Joshuaroug2083/NOD) on `main` at the user's request. Initial hosted revision: `abc9c5d`; the working branch remains `codex/phase0-foundation`, tracking `origin/main`.
+- [First GitHub Actions run](https://github.com/Joshuaroug2083/NOD/actions/runs/35525315739) failed in all three jobs during Android SDK setup: the upstream action requested the retired `tools` package. No hosted build or test ran. The configuration correction and rerun are tracked separately from local passes.
 - No physical phones have been tested. All Phase 1 radio, consent, integrity, throughput and OEM acceptance checks remain unexecuted.
 
 The updated UI register and ADR-011 preserve the user's own-card-only correction. The newly supplied `Nod_All_Screens` folder resolves the missing references for named screens 19–27 and supplies 01–18 assets. Its README marks screen 11 legacy, screen 28 in need of correction and Quick Nod images draft. No product screen has been implemented yet; see the [screen status table](../design/SCREEN_IMPLEMENTATION_STATUS.md).
@@ -46,6 +46,7 @@ The updated UI register and ADR-011 preserve the user's own-card-only correction
 - [Foundation shell screenshot](previews/phase0-shell.png): real app rendering, not a production UI mockup.
 - [Initial emulator System UI ANR screenshot](previews/phase0-emulator-system-ui-anr.png): retained as failure evidence rather than hidden from the record.
 - [APK sizes and SHA-256 hashes](PHASE0_ARTIFACTS.json): debug, unsigned release and instrumentation APKs from the successful combined build.
+- Phone-testing APK: `build/distributions/Nod-0.0.1-phase0-debug.apk`, 11,668,416 bytes. A fresh `:app:assembleDebug --offline` completed successfully and `apksigner verify --verbose` passed using APK Signature Scheme v2. Its SHA-256 matches the debug entry in `PHASE0_ARTIFACTS.json`; this is packaging evidence, not a phone-install pass.
 - [Detailed implementation tracker](../../TODO.md) and [screen status table](../design/SCREEN_IMPLEMENTATION_STATUS.md): distinguish design assets, built UI, connected behavior and verified flows.
 
 Preview tooling used the installed API 36 Google Play x86_64 system image and task-local AVD under ignored `.tools/avd`. Official Android command-line tools archive `commandlinetools-win-15859902_latest.zip` was verified against SHA-256 `90ae805d20434428bffcb699c290860f19bb5f66a67e6b330067e3de801fb04a` from the [Android download page](https://developer.android.com/studio), then installed in SDK `cmdline-tools/nod-bootstrap`. No accounts were added. The task-created headless emulator was stopped after evidence capture to release memory.
