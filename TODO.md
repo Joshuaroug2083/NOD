@@ -19,7 +19,7 @@ This is the working checklist for tracking implementation, not a replacement pro
 
 | Milestone | Status | Preview / evidence required |
 |---|---|---|
-| M0 — Buildable foundation | Builds/quality/source-copy passed; preview captured; remaining validation open | [Actual shell preview](docs/engineering/previews/phase0-shell.png), debug APK; instrumentation, IDE and literal clone checks still open |
+| M0 — Buildable foundation | Builds/quality/clean clone passed; preview captured; runtime/IDE validation open | [Actual shell preview](docs/engineering/previews/phase0-shell.png), debug APK; instrumentation and compatible IDE import still open |
 | M1 — Verified two-phone file exchange | Not started; M0 gate | Actual two-phone demonstration: verification, consent, byte progress, hash verification, completion and disconnect |
 | M2 — Reliable production transfer engine | Not started; M1 gate | Transfer/recovery demonstration and integrity/cleanup test report |
 | M3 — Private own-card sharing | Not started; M2 gate | Sender field review, receiver offer/preview and explicit system contact save |
@@ -67,13 +67,14 @@ This is the working checklist for tracking implementation, not a replacement pro
 - [x] Document local build commands, dependencies/licenses and original source review (NOD-0009).
 - [x] Pass aggregate unit tests, ktlint, detekt and Android lint; app lint reports 0 errors, 0 warnings and 20 informational dependency-update hints.
 - [x] Produce the installable debug shell APK.
-- [x] Produce the Compose instrumentation APK; execution is still pending.
+- [x] Produce the Compose instrumentation APK; device execution has been attempted but has not passed.
 - [x] Produce the shrunk unsigned release APK with final validation; combined quality/debug/release/instrumentation build passed.
 - [x] Validate a clean source copy offline without copied project outputs/local settings and with task-output cache disabled; build passed in 4m 52s, with a Windows compiler file-lock fallback recorded in evidence.
-- [ ] Record literal clean-clone build evidence once a source revision exists; a copied worktree is not a clone.
-- [ ] Confirm project imports/syncs in Android Studio (NOD-0001); CLI builds alone do not prove this.
+- [x] Record literal clean-clone build evidence: local checkpoint `b077090`, branch `codex/phase0-foundation`; offline build with task-output caching disabled passed in 2m 55s (98 tasks executed). Both original and screen-package hash inventories match in the clone.
+- [ ] Confirm project imports/syncs in compatible Android Studio (NOD-0001). Installed 2025.1.2 supports AGP through 8.12; Nod uses 8.13.2 and needs 2025.1.3 or newer compatible Studio. CLI builds alone do not prove IDE sync.
 - [x] Install and launch the shell on the task-local API 36 emulator; capture its actual rendered screen.
-- [ ] Pass the Compose instrumentation test. The first run returned `Process crashed`; the emulator also showed System UI and other system-process ANRs under severe host memory pressure. No pass or confirmed app-code cause is claimed.
+- [ ] Pass the Compose instrumentation test. Both attempts returned `Process crashed`; the second is confirmed as a process-start ANR, with heavy guest CPU/memory pressure and system-process failures. No assertion result or app-code correctness claim. See [device evidence](docs/engineering/DEVICE_VALIDATION.md); rerun on a stable emulator/physical device.
+- [x] Align library instrumentation target SDK with app target 36; regenerated manifest inspected. Reduce Gradle to a 1536 MB heap/two workers with in-process Kotlin compilation; aggregate validation passes.
 - [x] **Foundation build preview:** capture [the actual shell](docs/engineering/previews/phase0-shell.png) and provide the built debug APK, clearly labeled as the foundation. Full M0 exit remains pending.
 - [ ] Record all checks and any remaining exit limitations in `STATUS.md`; only then declare Phase 0 exited.
 
@@ -249,5 +250,5 @@ This phase follows ADR-011: only the user's own identity/business card and files
 
 1. Diagnose/re-run the failed instrumentation test on a stable emulator or device; the shell launch and screenshot are captured.
 2. Keep the screen-by-screen table clear: available design, implemented UI, connected feature and verified flow are distinct.
-3. Record remaining Android Studio import and literal clean-clone evidence; builds/quality checks and isolated-source build have passed.
+3. Verify import in compatible Android Studio; main builds, quality checks and literal clean-clone build have passed.
 4. Begin Phase 1 only after the Phase 0 gate is satisfied; start with transport contracts and the private-staging feasibility experiment.

@@ -14,6 +14,7 @@ Track implementation and milestone previews in the root [TODO checklist](../TODO
 - [Own-identity-only scope correction](adrs/ADR-011-own-identity-only.md)
 - [Architecture decision index](adrs/README.md)
 - [Build and validation](engineering/BUILD.md)
+- [Device-test evidence and remaining runtime checks](engineering/DEVICE_VALIDATION.md)
 - [Dependency register](engineering/DEPENDENCIES.md)
 - [Protocol bootstrap scope](protocol/PROTOCOL.md)
 - [Physical test gate](../Nod_Codex_Engineering_Handoff/docs/testing/TEST_STRATEGY.md)
