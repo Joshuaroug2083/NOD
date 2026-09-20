@@ -1,0 +1,637 @@
+[
+  {
+    "path": "Brand/Nod_Locked_Logo_Reference.png",
+    "bytes": 12518,
+    "sha256": "1c424b9b2822d9e987c5adc5ee801d9a2ce37a530a32c0e5042106d2870f56a0"
+  },
+  {
+    "path": "ChatGPT Image Sep 19, 2026, 09_46_22 PM.png",
+    "bytes": 1464827,
+    "sha256": "f37e76531401586509d157853e1e4147646fc3567e71658b2181554c56366f75"
+  },
+  {
+    "path": "ChatGPT Image Sep 19, 2026, 10_30_37 PM (2).png",
+    "bytes": 1323144,
+    "sha256": "f704bf735923c9053cb1e51efeccd3050f762a85585b54a3adc50ba7da814abc"
+  },
+  {
+    "path": "ChatGPT Image Sep 19, 2026, 10_31_05 PM.png",
+    "bytes": 1323144,
+    "sha256": "f704bf735923c9053cb1e51efeccd3050f762a85585b54a3adc50ba7da814abc"
+  },
+  {
+    "path": "DOCX/00_Nod_Document_Register_and_Launch_Checklist.docx",
+    "bytes": 64633,
+    "sha256": "38de4a1f553da96786512dc33b1428143cd6e5cce77713333dfec8657a634f0e"
+  },
+  {
+    "path": "DOCX/01_Nod_Product_Requirements_Document.docx",
+    "bytes": 64893,
+    "sha256": "8a382388462a77f644503fb15b55e3e0e5ad3f5cc017ab04aa27686972e04938"
+  },
+  {
+    "path": "DOCX/02_Nod_Functional_NFR_Acceptance_Requirements.docx",
+    "bytes": 64231,
+    "sha256": "e0d312b8714a9a17273b00574ab8fcdb860eeada7da166a7d45e764e0c367a60"
+  },
+  {
+    "path": "DOCX/03_Nod_System_Architecture_and_Technology_Specification.docx",
+    "bytes": 64444,
+    "sha256": "73ca9e758caf90372761ff07763fb6390013f73e197cc0212c392abda76974e6"
+  },
+  {
+    "path": "DOCX/04_Nod_P2P_Protocol_and_Data_Model_Specification.docx",
+    "bytes": 63638,
+    "sha256": "9c7b663a64ff149a4aba3f608cb99a7df87a3dae6335348443866a8bd95fe902"
+  },
+  {
+    "path": "DOCX/05_Nod_Security_Threat_Model_and_Cryptography_Specification.docx",
+    "bytes": 63688,
+    "sha256": "ad96972e0d40a33f2cf12e1ab7f2adec85fabf44b392b8c9ed2f561fccd94ec5"
+  },
+  {
+    "path": "DOCX/06_Nod_Privacy_DPIA_Data_Governance_and_Retention.docx",
+    "bytes": 64732,
+    "sha256": "3d9c0d3f9d0b8200e1199111f3677f0d576d9bfff52690044c4b92269e215bdd"
+  },
+  {
+    "path": "DOCX/07_Nod_Permissions_Background_QuickNod_Android_Compliance.docx",
+    "bytes": 63935,
+    "sha256": "a11d6a65f88b9a92f85b610aadb82a083dcc810b099a008636581f938e619b58"
+  },
+  {
+    "path": "DOCX/08_Nod_UI_UX_Design_System_Accessibility_Content.docx",
+    "bytes": 63555,
+    "sha256": "2d612f6330a2351d418dbf7d4b7efa4ce3c9d36400fdda9b653bbd24ff043021"
+  },
+  {
+    "path": "DOCX/09_Nod_QA_Device_Test_Release_and_Signing_Plan.docx",
+    "bytes": 63290,
+    "sha256": "5f6bcde43ccda79fdaf7d9eab005f73b23d71cf928c1e04c548301f5ee6480f9"
+  },
+  {
+    "path": "DOCX/10_Nod_Privacy_Policy.docx",
+    "bytes": 64581,
+    "sha256": "b1d3a6e243ec4c42c87fef16c3dcead00ab282fc3bedc9e98c64acb3dc5db07f"
+  },
+  {
+    "path": "DOCX/11_Nod_Terms_EULA_Acceptable_Use.docx",
+    "bytes": 64336,
+    "sha256": "3d802eb1c7e8b1a9014646c271e366b10e3363b3e1d245494d4bc956273e2a50"
+  },
+  {
+    "path": "DOCX/12_Nod_IP_Copyright_Trademark_and_Open_Source_Policy.docx",
+    "bytes": 64004,
+    "sha256": "e3d98a0f06ef4ceb83892e94957ead616fbab252ee1ff0b9bf087f2b92e58cd1"
+  },
+  {
+    "path": "DOCX/13_Nod_Developer_Contractor_IP_Assignment_and_NDA_Template.docx",
+    "bytes": 63631,
+    "sha256": "52368e28cec0e8d1924ee1cbc4332cb4eb184d16d61df1a8f3d3ece8f931c5df"
+  },
+  {
+    "path": "DOCX/14_Nod_Google_Play_Data_Safety_Listing_Compliance_Workbook.docx",
+    "bytes": 64076,
+    "sha256": "729fcb23f3ef618a0494fc58da1dbe37e5cf54a45f5431f397d5060517fa8b0f"
+  },
+  {
+    "path": "DOCX/15_Nod_Security_Incident_Vulnerability_Disclosure_and_Support.docx",
+    "bytes": 63201,
+    "sha256": "69376486748c55195867c7e767ed4b2614c7fd2c92b0f2f0da3ebb5cd0f217d2"
+  },
+  {
+    "path": "DOCX/16_Nod_Change_Management_Maintenance_and_End_of_Life_Policy.docx",
+    "bytes": 62985,
+    "sha256": "8aeb12b95c05a2978dc6f4b44ad9d61ac2da8b3fa4eb1a5bafbbd7f79aa2c8c1"
+  },
+  {
+    "path": "DOCX/Nod_Master_Product_Engineering_Legal_Launch_Binder.docx",
+    "bytes": 93849,
+    "sha256": "ce9051a4f714fff9ba12b539a8c61f9af90a2e57c9f2830945f6dce9838073c5"
+  },
+  {
+    "path": "MANIFEST.txt",
+    "bytes": 2230,
+    "sha256": "4d48c1d60bb054f2cc4a82baf6cbf941f3397a2d361004f4cb1da5c3e181ef1c"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/AGENTS.md",
+    "bytes": 6886,
+    "sha256": "45f8c2b416d197db1a24f1ab757ca0b5f1c1f086b834c99afa8215cebd957da4"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/ARCHITECTURE.md",
+    "bytes": 5437,
+    "sha256": "4ce4eb417ddc61007fc21d828de194ba5ee32acad02f5de8ee001f6759ee950d"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/CODEX_BOOTSTRAP_PROMPT.md",
+    "bytes": 2114,
+    "sha256": "5a04c77ab5c901e353d39d15772a98eacd0dccc4ae64f4efef81dd8b7b144f81"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/CODING_STANDARDS.md",
+    "bytes": 2862,
+    "sha256": "0ff37e696fd978edfcd6e78808b9c7f70d5e3352b9e538c2911212883ceda2c9"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/adrs/ADR-001-native-android.md",
+    "bytes": 523,
+    "sha256": "d8d704a8040a21d5806ac0fe2a6c5861879a31297dc7320ad596b3c34cc80936"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/adrs/ADR-002-local-first-no-backend.md",
+    "bytes": 465,
+    "sha256": "5c21200f24599bd3b19a69b0f9a7424c4623bc0ad0331f7da1a561bb4238580b"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/adrs/ADR-003-transport-abstraction.md",
+    "bytes": 419,
+    "sha256": "287f13929ba070d6ac7f0131371fb54026b106aa0f525781d9cf5fcacbcb98a0"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/adrs/ADR-004-versioned-protobuf-protocol.md",
+    "bytes": 343,
+    "sha256": "ae3ccf798a961d1da77f7d481fc027c5694a70d8849965c026bfd9b0da325abd"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/adrs/ADR-005-explicit-verification-and-consent.md",
+    "bytes": 328,
+    "sha256": "118adf4589aa40e8c4d6d72c308be2ba15847379e5fc004c50f1d092353632e9"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/adrs/ADR-006-local-encrypted-profile.md",
+    "bytes": 366,
+    "sha256": "d92df91772abdda9e165b7f6cc3cbad34d338db54fcbddd52878c2183d8dca51"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/adrs/ADR-007-quick-nod.md",
+    "bytes": 302,
+    "sha256": "68ad3e4e8c7571d724c288d7b8a1d4d7ecbe2a519bdaa3fcc14bfdd50697e806"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/adrs/ADR-008-staged-file-finalization.md",
+    "bytes": 343,
+    "sha256": "d45da60913c29eacbea624439a4a13b495dd5b73d76f792eda7a5a73a1384887"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/adrs/ADR-009-android-baseline.md",
+    "bytes": 314,
+    "sha256": "2eefc1aa510044a1b5e9cec1187db2b7bf0ea4ac063ef099834b7b296b2c1449"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/adrs/ADR-010-no-polished-ui-before-spike.md",
+    "bytes": 343,
+    "sha256": "a02702d6deb47f4dc005eabbf12b9fd17a4f3180608e3f2430d01f28e9f66eec"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/adrs/README.md",
+    "bytes": 626,
+    "sha256": "3b5f18cc5de8583673af499b0affdc01f7e32f3c4029f951cc0851f585315d44"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/engineering/PROTOCOL_V1_DRAFT.md",
+    "bytes": 1561,
+    "sha256": "a0c023ded61651e59516d2cc0ae31078ead5251a643b31c9d801bb41e1207287"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/product/DATA_MODEL.md",
+    "bytes": 1099,
+    "sha256": "0c9e2860fdfdfcbebcc252dbb3201dab00f624fc33488ff0c18461585151c18b"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/security/SECURITY_RULES.md",
+    "bytes": 2003,
+    "sha256": "b114f0b0639292c1ef5fa4dddc78c60e0b06e0adf7ef6f0fd0a53ac1a59466d5"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/docs/testing/TEST_STRATEGY.md",
+    "bytes": 2186,
+    "sha256": "eed2aa16a28451ea6741383e44e9b4ceba823b243e2d4b15af312a14c6aa329b"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/IMPLEMENTATION_PLAN.md",
+    "bytes": 4041,
+    "sha256": "4517cb894fb3cc3e0b666e2052eb89b6518244efbdb2ad5eb9e8d3f219b49df5"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/PHASE_0_1_BACKLOG.md",
+    "bytes": 4769,
+    "sha256": "157e5633294be758f1a4b1346ed290d2ee658df9bb3558d708179d690f7c53cc"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/PROJECT_CONTEXT.md",
+    "bytes": 3451,
+    "sha256": "ac5029507b56d1766cc97b8bc3e9dcbeb01139f3ba8735abc6daf8580ecd0989"
+  },
+  {
+    "path": "Nod_Codex_Engineering_Handoff/README.md",
+    "bytes": 2539,
+    "sha256": "aaafd773c41e2a5c0a63c62df68bbbf7c0403df5105f4317764493d9a9ae4f69"
+  },
+  {
+    "path": "PDF/00_Nod_Document_Register_and_Launch_Checklist.pdf",
+    "bytes": 121947,
+    "sha256": "760d9485d33bdde514ccab58eba8f8e76f692f4fd1539d643156b500932a394b"
+  },
+  {
+    "path": "PDF/01_Nod_Product_Requirements_Document.pdf",
+    "bytes": 118680,
+    "sha256": "a1ddbbfe708c30fee377ec0d9faafd4e18c279a868df570d477d1e0a150a8e5c"
+  },
+  {
+    "path": "PDF/02_Nod_Functional_NFR_Acceptance_Requirements.pdf",
+    "bytes": 112267,
+    "sha256": "c7acfb137d2aabd4e06cc41bcc2f937db970f3cebb86462696c9e5450b78f498"
+  },
+  {
+    "path": "PDF/03_Nod_System_Architecture_and_Technology_Specification.pdf",
+    "bytes": 113173,
+    "sha256": "86e3c9afa7d3e8bc1358323eb37da6830c1f0b1e790396abad297e0d798d8ea7"
+  },
+  {
+    "path": "PDF/04_Nod_P2P_Protocol_and_Data_Model_Specification.pdf",
+    "bytes": 95572,
+    "sha256": "022e9e6282ea0faeb696524925a2929f0e49021ee50b11822c12e68117c54285"
+  },
+  {
+    "path": "PDF/05_Nod_Security_Threat_Model_and_Cryptography_Specification.pdf",
+    "bytes": 92226,
+    "sha256": "5658430a8dd67d0d27b28925b203a12d3272189bba517efad07d452b01e4c641"
+  },
+  {
+    "path": "PDF/06_Nod_Privacy_DPIA_Data_Governance_and_Retention.pdf",
+    "bytes": 128363,
+    "sha256": "e13403fac0a99ee2db304c9d151aef7de4c377a44a038b1aa9a49ae61cb23bdb"
+  },
+  {
+    "path": "PDF/07_Nod_Permissions_Background_QuickNod_Android_Compliance.pdf",
+    "bytes": 100662,
+    "sha256": "d084387453be3ccf98ff2f52cae521029e3ef56d8f41ff8ff1e475c0ff8428f8"
+  },
+  {
+    "path": "PDF/08_Nod_UI_UX_Design_System_Accessibility_Content.pdf",
+    "bytes": 91722,
+    "sha256": "cb76cd8593106ff6f3153e90908c6539f31fd11cd76312a8dc92ed45f9936536"
+  },
+  {
+    "path": "PDF/09_Nod_QA_Device_Test_Release_and_Signing_Plan.pdf",
+    "bytes": 93559,
+    "sha256": "483468971119e46db29cb2d0d58d28b89a814aa6b203378f5fd4f4300e205a1e"
+  },
+  {
+    "path": "PDF/10_Nod_Privacy_Policy.pdf",
+    "bytes": 89814,
+    "sha256": "be3ab14d4d29e916fb471aafd3dd4cd5f322b4a904e994aad7bf74beed9a6b23"
+  },
+  {
+    "path": "PDF/11_Nod_Terms_EULA_Acceptable_Use.pdf",
+    "bytes": 87247,
+    "sha256": "521c13713c4a71c20479b7f144209b70498ba83edb04d94bc246a310b6234e11"
+  },
+  {
+    "path": "PDF/12_Nod_IP_Copyright_Trademark_and_Open_Source_Policy.pdf",
+    "bytes": 95008,
+    "sha256": "3c94f65d0a18d58da09eca0513a6fbdbb851d7cf5df16f98d7ebb6c5c20b0632"
+  },
+  {
+    "path": "PDF/13_Nod_Developer_Contractor_IP_Assignment_and_NDA_Template.pdf",
+    "bytes": 78845,
+    "sha256": "f41dd63f2132449a3b06d5293438000da1aa551f32da795af329c79753eba81b"
+  },
+  {
+    "path": "PDF/14_Nod_Google_Play_Data_Safety_Listing_Compliance_Workbook.pdf",
+    "bytes": 101450,
+    "sha256": "6c3a93e26247a34c976dd30ad53bf0ef4e298e5a9a9ae45789d7f96b13abfa69"
+  },
+  {
+    "path": "PDF/15_Nod_Security_Incident_Vulnerability_Disclosure_and_Support.pdf",
+    "bytes": 79587,
+    "sha256": "8b089d94bde1fa19278917d58fcefc45676340e144e19528eeac0acce3103bba"
+  },
+  {
+    "path": "PDF/16_Nod_Change_Management_Maintenance_and_End_of_Life_Policy.pdf",
+    "bytes": 75366,
+    "sha256": "f8501cc837dcc93ae8d20e5c459615523f6b69729c21a6e868288568aa246a57"
+  },
+  {
+    "path": "PDF/Nod_Master_Product_Engineering_Legal_Launch_Binder.pdf",
+    "bytes": 773900,
+    "sha256": "5cade0afa1c86a79c93f09936418f76d546d43621af9332d4373a22615176d68"
+  },
+  {
+    "path": "png/01_splash.png",
+    "bytes": 70210,
+    "sha256": "fdbd174e2e1fe03aa17ab0cd9fae90721bd86d5ce4ce0bd327016b94daa11e5b"
+  },
+  {
+    "path": "png/02_onboarding_welcome.png",
+    "bytes": 58739,
+    "sha256": "184cc8efe1e57a8de2a3a9ff90e4a7b8956f9ab2f4b2e7e82da7a4bb441b1cc8"
+  },
+  {
+    "path": "png/03_onboarding_how_it_works.png",
+    "bytes": 59162,
+    "sha256": "b5b18ba8427d2f55d21c6657a59b5db132aaee2de6966fbad83b616a0916d87d"
+  },
+  {
+    "path": "png/04_profile_setup.png",
+    "bytes": 61932,
+    "sha256": "4297420ff3b657b0b335bc447648713279cbd57008f42ea5c8c233b7f1fe512a"
+  },
+  {
+    "path": "png/05_permissions.png",
+    "bytes": 87426,
+    "sha256": "5967d3a709e158d53cf00e638e65031af35ff2736886fe179d7389ef02c1d6d4"
+  },
+  {
+    "path": "png/06_setup_complete.png",
+    "bytes": 45914,
+    "sha256": "12a4928c177ab941138957e14f860defe3e705662d6646a63656970935beb75a"
+  },
+  {
+    "path": "png/07_home.png",
+    "bytes": 59576,
+    "sha256": "69e0c85607b38530bd3f6fc921046efdea2387d75bf7ff724fd00e0b94355749"
+  },
+  {
+    "path": "png/08_discovering_devices.png",
+    "bytes": 97118,
+    "sha256": "24acced0a1689c575738a54a9b4ac152b48ca471d50306fcdfccaaeebf5d82dd"
+  },
+  {
+    "path": "png/09_sender_connection_waiting.png",
+    "bytes": 67265,
+    "sha256": "815e17a94b0cac12ef97822ebb57ff3cd3b6445d682fc79097e3d45c4d9957e7"
+  },
+  {
+    "path": "png/10_receiver_connection_request.png",
+    "bytes": 72458,
+    "sha256": "bcaf6696e57d1aaa1f57be6b5f7d252ca69e1e409c4b8b8a0a49b70f6ac1f939"
+  },
+  {
+    "path": "png/11_connected.png",
+    "bytes": 64420,
+    "sha256": "28ef4605a313a37c95ebd822ed6ccd9d79b6f913845b010d808056a1df4cd550"
+  },
+  {
+    "path": "png/12_select_payload_type.png",
+    "bytes": 79138,
+    "sha256": "ca2e7e7309399dea4f14653ae318c9e4d2ce6f93ea0789cb91b81f8fe2a52dc8"
+  },
+  {
+    "path": "png/13_sender_select_contacts.png",
+    "bytes": 89870,
+    "sha256": "5c9e5a815784d5daa3c60004efd639b88bd9010c968b9a3f7f76be905fbc5797"
+  },
+  {
+    "path": "png/14_sender_select_files.png",
+    "bytes": 69034,
+    "sha256": "aa184c9460b4e32db8961e30ea3461fdaf0c352d5ad0aaf0a57d48df4b182118"
+  },
+  {
+    "path": "png/15_sender_review_send.png",
+    "bytes": 82512,
+    "sha256": "48a7e46d67f57573f8afb02a5816ba8daffe38867a947a2be902a1bf909b844e"
+  },
+  {
+    "path": "png/16_receiver_incoming_transfer.png",
+    "bytes": 76077,
+    "sha256": "45a5d3e7c5f975c2f698799f5785bc987a16b177b86723c85072cf45eab78cec"
+  },
+  {
+    "path": "png/17_receiver_review_transfer.png",
+    "bytes": 83530,
+    "sha256": "7d603329d05f9aa07a3484d93faae3a842b223de0eb6df743a32adb76b395b5b"
+  },
+  {
+    "path": "png/18_sender_waiting_acceptance.png",
+    "bytes": 77394,
+    "sha256": "6e5496058543d3c3db64611b3491f7b95a4df0640c12b5a4e212ef5cb9997d37"
+  },
+  {
+    "path": "png/19_sender_sending_progress.png",
+    "bytes": 55762,
+    "sha256": "7dc945fda15b74d0e19c67ff9417c6c5aeef75f3f218cb6c08a5ea43ea32d8ec"
+  },
+  {
+    "path": "png/20_receiver_receiving_progress.png",
+    "bytes": 55792,
+    "sha256": "258440c1e05b2c078aa32985140ca601a400acb12e55268eec22503db961551e"
+  },
+  {
+    "path": "png/21_sender_transfer_complete.png",
+    "bytes": 55040,
+    "sha256": "0a4e1259e4cab079006075db656b75b56417437ddbd2ce01f513c550cf480e65"
+  },
+  {
+    "path": "png/22_receiver_transfer_complete.png",
+    "bytes": 56869,
+    "sha256": "cb2a57bd3eea29d192ca4bf178b2111aa9a73b40b23dabed8a12fb54b57bb902"
+  },
+  {
+    "path": "png/23_receiver_contact_exchange.png",
+    "bytes": 92417,
+    "sha256": "6dc76832df56b46ed00a496a5f897e6ffa35099819280f9f6a65d5b59b3e72e3"
+  },
+  {
+    "path": "png/24_number_scanner.png",
+    "bytes": 66846,
+    "sha256": "4ea5ad9b8d6388e8af9fce6a6ae6fee0c991be2b436d74a6c157780d5e8d21c5"
+  },
+  {
+    "path": "png/25_transfer_history.png",
+    "bytes": 97093,
+    "sha256": "e5bd3c22c2ee236523b574a924ef2473fcffee68342fdf8299d3261657f9ea92"
+  },
+  {
+    "path": "png/26_no_devices_found.png",
+    "bytes": 63966,
+    "sha256": "367b7d74fe7fe4418005da801098fed1e9d0375c985dea92e180407df2461cb2"
+  },
+  {
+    "path": "png/27_transfer_interrupted.png",
+    "bytes": 64925,
+    "sha256": "f970f2524ae1bf480a66369c28db4c92be939f45e1a72a2676577c77dbdedc31"
+  },
+  {
+    "path": "png/28_permission_recovery.png",
+    "bytes": 76982,
+    "sha256": "b8153a3ed200f7016cfecb77a35559582e2ad2db3244a8812a65c3dbbc4456fe"
+  },
+  {
+    "path": "png/29_profile.png",
+    "bytes": 77313,
+    "sha256": "d035c1a73eb4ad4feb6d7f503de949dfca566bd17c718fd7524e071cb1eda2b8"
+  },
+  {
+    "path": "png/30_settings.png",
+    "bytes": 75731,
+    "sha256": "7cd9367f96fc710093669fb7e28e9a562883863dc1d22e30596a34733857fc0a"
+  },
+  {
+    "path": "Public_Policies_PDF/10_Nod_Privacy_Policy.pdf",
+    "bytes": 89814,
+    "sha256": "be3ab14d4d29e916fb471aafd3dd4cd5f322b4a904e994aad7bf74beed9a6b23"
+  },
+  {
+    "path": "Public_Policies_PDF/11_Nod_Terms_EULA_Acceptable_Use.pdf",
+    "bytes": 87247,
+    "sha256": "521c13713c4a71c20479b7f144209b70498ba83edb04d94bc246a310b6234e11"
+  },
+  {
+    "path": "Public_Policies_PDF/15_Nod_Security_Incident_Vulnerability_Disclosure_and_Support.pdf",
+    "bytes": 79587,
+    "sha256": "8b089d94bde1fa19278917d58fcefc45676340e144e19528eeac0acce3103bba"
+  },
+  {
+    "path": "svg/01_splash.svg",
+    "bytes": 2409,
+    "sha256": "6be34f500125d65336fd28dfc9ddeaefbec1f3013b3926600bdea4131e2cc0d3"
+  },
+  {
+    "path": "svg/02_onboarding_welcome.svg",
+    "bytes": 2786,
+    "sha256": "fad6dd39988ddc21467199a64a02d6a68289594ec83024c0d7989ee2ea1c21f0"
+  },
+  {
+    "path": "svg/03_onboarding_how_it_works.svg",
+    "bytes": 3352,
+    "sha256": "3b248532d7ddea094f2fa674914db20e9bb8b534a45249db61736d4bf4936567"
+  },
+  {
+    "path": "svg/04_profile_setup.svg",
+    "bytes": 2990,
+    "sha256": "4f64ce5843741e13046202bba1f9e28ec5ddcc453aa47f04848b6024f10b0b8c"
+  },
+  {
+    "path": "svg/05_permissions.svg",
+    "bytes": 4090,
+    "sha256": "94bdacc37f1e9cd655bac573ba3c2aa728f4b260e46f03d423b7238fdeff9fbb"
+  },
+  {
+    "path": "svg/06_setup_complete.svg",
+    "bytes": 2027,
+    "sha256": "3a516c541d650a1d42388fa86bf11da1a03f167ff7caa443cb33c14ea0ee782c"
+  },
+  {
+    "path": "svg/07_home.svg",
+    "bytes": 4149,
+    "sha256": "eacd680df4364a93a81aec532b6582f16383f831d939fa28a64cf4a136c05f9c"
+  },
+  {
+    "path": "svg/08_discovering_devices.svg",
+    "bytes": 4757,
+    "sha256": "7890d2babd8b87b74f57a4e284fd5d74273c7d7f5316de5f43d1083a4db51726"
+  },
+  {
+    "path": "svg/09_sender_connection_waiting.svg",
+    "bytes": 2702,
+    "sha256": "c563dd71b5070bda74974a4c0ca245c6c098f73981c3706be039a650f2b6257d"
+  },
+  {
+    "path": "svg/10_receiver_connection_request.svg",
+    "bytes": 3053,
+    "sha256": "0c5324bf7d51d0a176cb2643208971e8f8de106c3d50c1f40fa5c6d960f00507"
+  },
+  {
+    "path": "svg/11_connected.svg",
+    "bytes": 3722,
+    "sha256": "31753cff4b66ea61e3e449ed65b9c454dedf618e534fefe758886ac618eedd56"
+  },
+  {
+    "path": "svg/12_select_payload_type.svg",
+    "bytes": 4402,
+    "sha256": "9012a9d79075259cc7be0cd28b8932783e4a51017833e4816c14a19b5a550477"
+  },
+  {
+    "path": "svg/13_sender_select_contacts.svg",
+    "bytes": 5557,
+    "sha256": "7b44919300892407a9609783060ab0aaac97690173fa9ec290fb8f799ad54c27"
+  },
+  {
+    "path": "svg/14_sender_select_files.svg",
+    "bytes": 7183,
+    "sha256": "a14a96f9c4eb892815824521334ee5a452df4cbddefe81701f0a67d664aaf779"
+  },
+  {
+    "path": "svg/15_sender_review_send.svg",
+    "bytes": 5134,
+    "sha256": "d7a900e8722838bdba92f3bfb813727cc4b4a5411a2275cd54b953ddbee9fa8a"
+  },
+  {
+    "path": "svg/16_receiver_incoming_transfer.svg",
+    "bytes": 4302,
+    "sha256": "4e673b00e78b52a8fb3115b4b07d61c28ba9915729293bb0984a7979682bb3cb"
+  },
+  {
+    "path": "svg/17_receiver_review_transfer.svg",
+    "bytes": 5786,
+    "sha256": "3c927edf2529466e568d0c234f1e881379873dc2ac4963cce96b87b12b44e96f"
+  },
+  {
+    "path": "svg/18_sender_waiting_acceptance.svg",
+    "bytes": 2997,
+    "sha256": "2a984955ca2b84f95c8d5336c2b7c3bcccb2d24851561efc5be07156ccea26b4"
+  },
+  {
+    "path": "svg/19_sender_sending_progress.svg",
+    "bytes": 2756,
+    "sha256": "d370d252903aeb2b111ceb7e1d8ae57ee09c39a3d183b5c3ef3755d9dd6b2802"
+  },
+  {
+    "path": "svg/20_receiver_receiving_progress.svg",
+    "bytes": 2765,
+    "sha256": "023b9f1395ac9723da27bc21685af92447e1bdc67d0905867165f7fcdbd075e1"
+  },
+  {
+    "path": "svg/21_sender_transfer_complete.svg",
+    "bytes": 2428,
+    "sha256": "41106d9820c87ee65f25142c98e9b2d4c9467b5cc0e4cb8ce08a5050de141f1a"
+  },
+  {
+    "path": "svg/22_receiver_transfer_complete.svg",
+    "bytes": 3606,
+    "sha256": "a035a4e5d5397be5d6a595556a2e3f534dd26ee90654e31ca9e0c95ceba9ea0c"
+  },
+  {
+    "path": "svg/23_receiver_contact_exchange.svg",
+    "bytes": 4518,
+    "sha256": "a882826e216d6417a66db5fbbe6cad6018668ccb95d4aa35eb10114f83c17876"
+  },
+  {
+    "path": "svg/24_number_scanner.svg",
+    "bytes": 3276,
+    "sha256": "9749e8c1b5b79dcf6b991b8cc2c55deb778504dadd655fd38aa51d72dcf6dc38"
+  },
+  {
+    "path": "svg/25_transfer_history.svg",
+    "bytes": 7961,
+    "sha256": "e4f2d0f5104bd375796abbd4f2e17d379681a457c388b1148db688ba24535f06"
+  },
+  {
+    "path": "svg/26_no_devices_found.svg",
+    "bytes": 2470,
+    "sha256": "727342c5705142e829b508862aa67f3b0563a4ddcf8594323aeddb437d4fd6f2"
+  },
+  {
+    "path": "svg/27_transfer_interrupted.svg",
+    "bytes": 3126,
+    "sha256": "5b48908ef8cd25d22d53bd7077c108f08577e997f5cf599a79011c1b4868d956"
+  },
+  {
+    "path": "svg/28_permission_recovery.svg",
+    "bytes": 3085,
+    "sha256": "1258482fd8dfa2c012cb5251e9faf0d6f8700b3c1e947eb40c1a86da4e8b6595"
+  },
+  {
+    "path": "svg/29_profile.svg",
+    "bytes": 5383,
+    "sha256": "7b1113e83d2c606120636d627692a87b817ce9a1d947b80cda5a1221bc1a4b13"
+  },
+  {
+    "path": "svg/30_settings.svg",
+    "bytes": 4760,
+    "sha256": "8d29fc61b79c93c83695421aa1558369f089a84b1a5d6f419536b439f7c24f6e"
+  }
+]

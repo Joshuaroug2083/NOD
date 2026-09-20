@@ -1,0 +1,11 @@
+config:
+  validation: true
+
+naming:
+  FunctionNaming:
+    ignoreAnnotated: ['Composable']
+
+style:
+  MagicNumber:
+    excludes: ['**/test/**', '**/androidTest/**']
+    ignorePropertyDeclaration: true

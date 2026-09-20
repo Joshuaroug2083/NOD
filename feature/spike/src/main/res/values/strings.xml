@@ -1,0 +1,7 @@
+<resources>
+    <string name="spike_title">Nod · Technical spike</string>
+    <string name="bootstrap_status">Phase 0: build foundation</string>
+    <string name="android_baseline">Android minimum API %1$d · target API %2$d</string>
+    <string name="protocol_baseline">Bootstrap protocol version: %1$d</string>
+    <string name="transport_pending">Nearby connectivity and file transfer are not implemented yet. No discovery is active.</string>
+</resources>

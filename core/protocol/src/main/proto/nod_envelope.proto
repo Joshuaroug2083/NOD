@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package nod.protocol.v1;
+
+option java_package = "dev.nod.protocol.v1";
+option java_multiple_files = true;
+
+// Phase 0 subset of the supplied protocol draft. Not a released wire contract.
+message NodEnvelope {
+  uint32 protocol_version = 1;
+  string session_id = 2;
+  string message_id = 3;
+
+  oneof body {
+    Hello hello = 10;
+  }
+  // Draft slots 11–18 remain unassigned until Phase 1 defines their semantics.
+}
+
+message Hello {
+  repeated uint32 supported_versions = 1;
+  repeated string capabilities = 2;
+}
